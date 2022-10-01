@@ -1,0 +1,3 @@
+For Migrating
+
+migrate -path $(PWD)/platform/migrations -database "postgres://postgres:password@localhost:5435/postgres?sslmode=disable" up
